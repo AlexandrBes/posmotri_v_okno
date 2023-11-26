@@ -98,6 +98,8 @@ ol {
 }
 
 .search-form__label {
+  display: flex;
+  gap: 5px;
   cursor: pointer;
 }
 
