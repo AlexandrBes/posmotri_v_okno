@@ -51,7 +51,7 @@ ol {
   flex-direction: column;
   inline-size: 711px;
   block-size: 456px;
-  gap: 16px;
+  gap: 20px;
 }
 
 .result__video-container {
@@ -210,9 +210,13 @@ ol {
 }
 
 .content__list {
+  display: flex;
+  inline-size: 399px;
+  block-size: 298px;
+  flex-direction: column;
+  gap: 30px;
   position: relative;
   overflow-y: auto;
-  block-size: 298px;
   scrollbar-width: none;
 }
 
@@ -225,9 +229,10 @@ ol {
 }
 
 .content__list-item {
-  max-width: 398px;
-  max-height: 107px;
-  margin: 2px 3px 34px;
+  inline-size: 398px;
+  block-size: 103px;
+  padding-left: 3px;
+  padding-top: 2px;
 }
 
 .content__card-link {
@@ -261,6 +266,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  inline-size: 200px;
+  block-size: 101px;
 }
 
 .content__video-card-title {
