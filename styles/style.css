@@ -51,7 +51,7 @@ ol {
   flex-direction: column;
   inline-size: 711px;
   block-size: 456px;
-  gap: 9px;
+  gap: 16px;
 }
 
 .result__video-container {
@@ -59,12 +59,13 @@ ol {
   display: flex;
   align-items: center;
   block-size: 386px;
-  margin-top: 85px;
+  margin-top: 75px;
 }
 
 .result__video {
   inline-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -103,6 +104,7 @@ ol {
 .search-form__label:hover {
   text-decoration: underline 1px #FFF;
   text-underline-offset: 2px;
+  text-decoration-skip-ink: none;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -114,7 +116,7 @@ ol {
   color: rgba(255, 255, 255, 0.70);
   font-family: Fira Sans Condensed;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   inline-size: 225px;
   background-color: #1b1919;
   border-style: none;
@@ -209,7 +211,7 @@ ol {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   block-size: 298px;
   scrollbar-width: none;
 }
@@ -225,7 +227,7 @@ ol {
 .content__list-item {
   max-width: 398px;
   max-height: 107px;
-  margin: 4px 3px 34px;
+  margin: 2px 3px 34px;
 }
 
 .content__card-link {
@@ -235,6 +237,7 @@ ol {
 .content__card-link:hover {
   text-decoration: underline 1px #FFF;
   text-underline-offset: 2px;
+  text-decoration-skip-ink: none;
 }
 
 .content__card-link:focus {
@@ -281,6 +284,7 @@ ol {
   inline-size: 194px;
   block-size: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
