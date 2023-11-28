@@ -50,7 +50,7 @@ ol {
   display: flex;
   flex-direction: column;
   inline-size: 711px;
-  gap: 17px;
+  gap: 18px;
 }
 
 .result__video-container {
